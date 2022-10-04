@@ -10,7 +10,7 @@
 <li>DateFormat.FULL/MEDIUM/SHORT</li>
 </ul>
 
-<ol><b>Atividades</b>
+<ol><h4>Atividades</h4>
 <li>Exiba a data de aniversário com data em formato japones, koreano e francês;</li>
 <li>Receba o dia e a hora de um compromisso do usuário.<ul>
 <li>Exiba em formato igual à: "Segunda-feira, 03/10/22, às 20:35h"</li>
