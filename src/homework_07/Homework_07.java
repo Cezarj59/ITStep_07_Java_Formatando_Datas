@@ -34,7 +34,7 @@ public class Homework_07 {
             double total = valorDoBoleto + (percentual * valorDoBoleto) * diasAtraso;
 
             System.out.println("Valor do Boleto: " + valorDoBoleto);
-
+            System.out.println("Dias em Atraso: " + diasAtraso);
             System.out.println("Total de juros: " + (total - valorDoBoleto));
             System.out.println("Valor a ser pago: " + total);
         }
