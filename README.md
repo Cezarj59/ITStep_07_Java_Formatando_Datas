@@ -24,9 +24,11 @@ pagamento com 2% por dia de multa.</li>
 </ol>
 
 <h4>Output das atividades:</h4>
-![Screenshot from 2022-10-04 19-32-06](https://user-images.githubusercontent.com/78119622/193942637-1cad9ddb-1967-41eb-a166-97e32768e0e8.png)
 
 ![Screenshot from 2022-10-04 19-28-12](https://user-images.githubusercontent.com/78119622/193942690-3c39b2cf-1b5b-42d1-9413-97eff7cd4ad7.png)
+
+
+![Screenshot from 2022-10-04 19-32-06](https://user-images.githubusercontent.com/78119622/193943657-91ddf729-27bf-449e-8e1c-10630e093e46.png)
 
 
 <h4>Tecnologias Utilizadas.</h4>
