@@ -14,7 +14,7 @@ public class Homework_07 {
     }
 
     private static void recebeValor() {
-        System.out.print("Informe o valor do Boleto: ");
+        System.out.print("Informe o valor do Boleto: R$ ");
         double valorDoBoleto = leia.nextDouble();
 
         System.out.println("Informe a data de vencimento do Boleto.");
@@ -26,17 +26,17 @@ public class Homework_07 {
 
         if (dataBoleto(diaDeVencimento, mesDeVencimento)) {
             System.out.println("Dias para o vencimento: " + diasAtraso);
-            System.out.println("Valor a ser pago: " + valorDoBoleto);
+            System.out.println("Valor a ser pago: R$ " + valorDoBoleto);
 
         } else {
 
             double percentual = 2.0 / 100.0;
             double total = valorDoBoleto + (percentual * valorDoBoleto) * diasAtraso;
 
-            System.out.println("Valor do Boleto: " + valorDoBoleto);
-
-            System.out.println("Total de juros: " + (total - valorDoBoleto));
-            System.out.println("Valor a ser pago: " + total);
+            System.out.println("Valor do Boleto: R$ " + valorDoBoleto);
+            System.out.println("Dias em Atraso: " + diasAtraso);
+            System.out.println("Total de juros: R$ " + (total - valorDoBoleto));
+            System.out.println("Valor a ser pago: R$ " + total);
         }
 
     }

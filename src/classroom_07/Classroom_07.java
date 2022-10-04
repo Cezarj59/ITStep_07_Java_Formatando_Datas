@@ -66,28 +66,27 @@ public class Classroom_07 {
         DateFormat formatoJapao = DateFormat.getDateInstance(DateFormat.FULL, japao);
         DateFormat formatoKorea = DateFormat.getDateInstance(DateFormat.FULL, korea);
         DateFormat formatoFranca = DateFormat.getDateInstance(DateFormat.FULL, franca);
-
+        System.out.println("\n");
         System.out.println("Data aniversario formato Japão: " + formatoJapao.format(data.getTime()));
         System.out.println("Data aniversario formato Korea: " + formatoKorea.format(data.getTime()));
         System.out.println("Data aniversario formato França: " + formatoFranca.format(data.getTime()));
+        System.out.println("\n");
 
 //        exercicio 2
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite um dia");
+        System.out.print("Digite um dia: ");
         int dia = leia.nextInt();
-        System.out.println("Digite o mes");
+        System.out.print("Digite o mes: ");
         int mes = leia.nextInt() - 1;
 
-        System.out.println("Digite o horario");
+        System.out.print("Digite o horario: ");
         int hora1 = leia.nextInt();
-         System.out.println("Digite o minutos");
+        System.out.print("Digite o minutos: ");
         int min = leia.nextInt();
 
         SimpleDateFormat formatadorSimples2 = new SimpleDateFormat("'dia do Evento: 'EEEE dd/MM/yy', às' hh:mm'h'");//mm == minutos MM = mês EEEE dia da semana
-        data.set(2022, mes, dia, hora1,min);
+        data.set(2022, mes, dia, hora1, min);
         System.out.println("Data Agendada: " + formatadorSimples2.format(data.getTime()));
-        
-        
 
     }
 
