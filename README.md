@@ -1,5 +1,5 @@
 <h2>ITStep_07_Java_Formatando_Datas.</h2>
-<p>Atividade ITStep Aula_06 módulo Java - Formatação de datas.</p>
+<p>Atividade ITStep Aula_07 módulo Java - Formatação de datas.</p>
 
 <ul><h3>Tópicos</h3>
 <li>DateFormat</li>
